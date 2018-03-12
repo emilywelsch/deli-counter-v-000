@@ -14,7 +14,7 @@ def line(katz_deli)
   else
     puts "The line is currently:"
     katz_deli.each_with_index {|name, index|
-      puts " #{index+1}. #{name}"}
+      print " #{index+1}. #{name}"}
   end
 end
 # line(katz_deli)
